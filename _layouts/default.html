@@ -1,20 +1,102 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  {%- include head.html -%}
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <body>
+  <title>Portfolio</title>
+</head>
 
-    {%- include header.html -%}
+<!-- Content of Website -->
+<body>
+  <div class="container">
 
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
+    <!-- Title -->
+    <div class="row py-3">
+      <div class="col text-center">
+        <h1>Nicola Küng's Movie Reel</h1>
       </div>
     </div>
 
-    {%- include footer.html -%}
+    <!-- Introduction Text -->
+    <div class="row justify-content-center">
+      <div class="col-6">
+        Filmmaking is a process. It takes many years to develop ones style. Looking back, it's easy to be ashamed of ones beginnings. I don't feel like this. That's why you can find my entire portfolio of films below. Reaching back all the way to my very first experiments with cameras. Enjoy the journey!
+      </div>
+    </div>
 
-  </body>
+    <!-- Year Tag -->
+    <div class="row pt-3">
+      <div class="col text-center">
+        <u><h2>2019</h2></u>
+      </div>
+    </div>
 
+    <!-- Videos of that Year -->
+    <div class="row justify-content-end">
+      <div class="col-3 text-right py-3 border-right border-dark">
+        <h3>Van Diego</h3>
+        More of a video-slideshow than a movie. Shot during a ten-day roadtrip down the Californian Cost from San Francicso to San Diego.
+      </div>
+      <div class="col-6 py-3 border-left border-dark">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe src="https://player.vimeo.com/video/362793056" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 py-3 border-right border-dark">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/t05HCla0pBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-3 text-bottom py-3 border-left border-dark">
+        <h3>Legartis – Corporate Video</h3>
+        Professional shoot for a young Swiss startup. Involved everything from drawing a storyboard, conducting and editing interviews to flying a drone.
+      </div>
+    </div>
+
+    <!-- Year Tag -->
+    <div class="row pt-3">
+      <div class="col text-center">
+        <u><h2>2018</h2></u>
+      </div>
+    </div>
+    <!-- Videos of that Year -->
+    <div class="row justify-content-end">
+      <div class="col-3 py-3 border-right border-dark">
+        <h3>Autonomous Christmas Lab</h3>
+        Professional shoot for my lab at uni. Only had one week for the whole job and have never been as stressed out as when all robot operators had to be performing for the same shot.
+      </div>
+      <div class="col-6 py-3 border-left border-dark">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2U3zh6rCp1g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-6 py-3 border-right border-dark">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ht7J6IaL2bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-3 text-bottom py-3 border-left border-dark">
+        <h3>Ascento</h3>
+        Roll-Out video for a robotics project I worked on myself. Marked my first time shooting interviews with two cameras and working extensively with text. With around four days of production time propably my most stressful job ever.
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
