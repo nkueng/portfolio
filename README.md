@@ -6,3 +6,8 @@
 A filmmaking [portfolio](https://nkueng.github.io/portfolio/) displaying professional and leisure work.
 
 Based on the Bootstrap 4 Github Pages theme by [nicolas-van](https://github.com/nicolas-van/bootstrap-4-github-pages).
+
+To-Dos:
+- add breakpoints such that site is mobile friendly
+  - texts always below video
+  - timeline vanishes only year titles remain
