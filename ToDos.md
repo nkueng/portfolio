@@ -1,6 +1,4 @@
 ToDos
-- add all movies
-- move css tags to css file, make classes
-- make mobile friendly
+-generalize options for divs by making corresponding classes in .scss file
 - delete unnecessary files from repo
 - add navbar with inverted colors (b/w)
