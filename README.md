@@ -11,9 +11,3 @@ Run locally via
 ```
 bundle exec jekyll serve
 ```
-
-
-To-Dos:
-- add breakpoints such that site is mobile friendly
-  - texts always below video
-  - timeline vanishes only year titles remain
