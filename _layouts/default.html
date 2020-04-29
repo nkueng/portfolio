@@ -9,13 +9,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous"/>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <!-- <link rel="stylesheet" type="text/css" href="custom.css"> -->
+  <link rel="stylesheet" type="text/css" href="custom.css">
 
   <title>Portfolio</title>
 </head>
 
 <!-- Content of Website -->
 <body>
+  <!-- for "scroll up" button in footer -->
+  <a id="top"></a>
+
+  <!-- start of grid -->
   <div class="container">
 
     <!-- Title -->
@@ -36,7 +40,7 @@
     <div class="row justify-content-center">
       <!-- read: column of width 8/12 on all sizes except starting from large screens width is 5/12 -->
       <div class="col-8 col-lg-5">
-        Filmmaking is a process. It takes many years to develop ones style. Looking back, it's easy to be ashamed of one's beginnings. I don't feel like this. That's why I proudly present my entire portfolio of films below. Reaching back all the way to my very first experiments with cameras. Enjoy the journey!
+        Filmmaking is a process. It takes many years to develop one's style. Looking back, it's easy to be ashamed of one's beginnings. I don't feel like this. That's why I proudly present my entire portfolio of movies below. Reaching back all the way to my very first experiments with cameras. Enjoy the journey!
       </div>
     </div>
 
@@ -377,12 +381,14 @@
     <!-- footer -->
     <div class="row justify-content-center pb-3">
       <div class="col text-center">
-        <a href=".">
-          <span class="oi oi-arrow-thick-top"></span> Take me back to the present <span class="oi oi-arrow-thick-top"></span>
+        <a href="#top">
+          Alright now, take me back to the present!
+          <!-- <span class="oi oi-arrow-thick-top"></span> Take me back to the present <span class="oi oi-arrow-thick-top"></span> -->
         </a>
       </div>
     </div>
 
+    <!-- end of grid -->
   </div>
 
   <!-- Optional JavaScript -->
