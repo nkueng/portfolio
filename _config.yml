@@ -16,13 +16,14 @@
 title: Portfolio
 email: "nickueng@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Movie Reel of Swiss Filmmaker Nicola Küng
+  Movie Reel of Nicola Küng
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  nkueng
-
 repository: "nkueng/portfolio"
+
+google_analytics: G-HQMK9J6V77
 
 # Build settings
 plugins:
